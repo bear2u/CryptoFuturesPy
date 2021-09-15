@@ -25,7 +25,7 @@ from . import AbstractExchangeHandler
 
 
 class BitmexExchangeHandler(AbstractExchangeHandler):
-    domen = "wss://www.bitmex.com"
+    domen = "wss://www.bitmex.com/realtime"
 
     # Generates an API signature.
     # A signature is HMAC_SHA256(secret, verb + path + nonce + data), hex encoded.
